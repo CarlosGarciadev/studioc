@@ -1,0 +1,337 @@
+/*  Customização padrão */
+* {
+    font-family: 'lato', sans-serif;
+}
+
+.bg-primary-color {
+    background-color: #FFF;
+}
+
+.bg-secondary-color {
+    background-color: #ece8ea;
+}
+
+.bg-dark-color {
+    background-color: #050505;
+}
+
+.primary-color {
+    color: #d3d3d3;
+}
+
+.secondary-color {
+    color: #7a7a7a;
+}
+
+/*  Fim Customização padrão */
+
+
+section {
+    min-height:100%;
+    padding-top:110px;
+    
+    }
+
+body {
+    background-color: #211d1d;
+    scroll-behavior: smooth;
+}
+
+/*   MENU  */
+
+#navbar a {
+    color: #d3d3d3;
+    text-decoration: none;
+}
+
+
+#navbar {
+    border-bottom: 1px solid #d3d3d3;
+    background-color: #3c3c3c;
+}
+
+
+#navbar a:hover {
+    color: #d3d3d3;
+}
+
+
+.navbar-brand {
+    display: flex;
+}
+
+.navbar-brand img {
+    width: 55px;
+}
+
+.nav-item {
+    font-size: 18px;
+}
+
+.navbar-brand span {
+    font-weight: 700;
+    font-size: 1.6em;
+    margin-left: .5em;
+    padding-top: 8px;
+}
+
+#navbar-items .navbar-nav {
+    display: flex;
+    justify-content: end;
+    width: 100%;
+}
+
+#navbar-items .nav-item {
+    margin: 0 1em;
+}
+
+#navbar-items .nav-item a:hover {
+    background-color: #2C2C2C;
+    border-radius: 5px;
+    transform: scale(1.1);
+}
+
+
+/*  SLIDER  */
+
+#slider {
+    margin-top:8.5em;
+}
+
+#slider .carousel-caption {
+    bottom: .5em;
+}
+
+
+.btn {
+    border-radius: 0;
+}
+
+#slider .btn {
+    padding: 0.3 0.8em;
+    font-size: 1em;
+    margin-top: 1em;
+}
+
+
+.carousel-control-prev i,
+.carousel-control-next i {
+    color: rgb(236, 229, 229);
+    font-size: 3em;
+}
+
+
+.carousel-indicators [data-bs-target] {
+    background-color: #222;
+    opacity: 0.9;
+}
+
+
+.carousel-indicators .active {
+    background-color: rgb(236, 229, 229);
+}
+
+
+
+/*  O STUDIO  */
+#studio {
+    text-align: center;
+    color: #d3d3d3;
+}
+
+#studio p {
+    text-align: center;
+    padding-top: 10px;
+}
+
+#studio h2 {
+   font-size: 35px;
+
+}
+
+
+/*  SERVIÇOS   */
+
+.service {
+    text-align: center;
+    color: #d3d3d3;
+}
+
+.service i {
+    font-size: 80px;
+    color: #960019;
+}
+
+.service h2 {
+    font-size: 35px;
+}
+
+
+/*A EQUIPE  */
+
+#team-area {
+    color: #d3d3d3;
+    
+}
+
+#team-area h3{
+    font-size: 35px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.card {
+    border:none;
+}
+.card-body {
+    background-color: #121212;
+}
+
+/*  FOOTER  */
+
+.contact-box {
+    padding-bottom: 25px;
+    margin-bottom: 25px;
+    border-bottom: 1px solid #7a7a7a;
+    color: #d3d3d3;
+}
+
+.main-title {
+    color: #d3d3d3;
+}
+
+.contact-box i {
+    color: #960019;
+    border: solid 1px #d3d3d3;
+    border-radius: 45%;
+    width: 55px;
+    height: 55px;
+    line-height: 55px;
+    font-size: 28px;
+    margin-top: 40px;
+    margin-bottom: 20px;
+    padding: 10px;
+}
+
+.contact-box p {
+    font-size: 16px;
+}
+
+.contact-title {
+    font-weight: bold;
+    
+}
+
+.contact-area {
+    background-color: #3c3c3c;
+    text-align: center;
+}
+
+.main-title {
+    margin-top: 20px;
+}
+
+.contact-area .main-btn {
+    border-radius: 3px;
+    border: solid 1px rgb(163, 163, 163);
+}
+#msg-box p {
+    font-size: 22px;
+    color: #d3d3d3;
+}
+
+#contact-form input[type="text"], #contact-form input[type="email"], #contact-form textarea {
+    margin-bottom: 10px;
+    border-radius: 3px;
+    border: none;
+    background-color: #121212;
+}
+
+#contact-form .main-btn {
+    width: 80px;
+    height: 40px;
+    margin-bottom: 20px;
+}
+
+
+#contact-form .main-btn:hover {
+    color: #960019;
+}
+
+/*   Copy   */
+
+#copy-area .container {
+    padding: 10px 0;
+    text-align: center;
+}
+
+#copy-area .container P {
+    margin-bottom: 0;
+    color: #d3d3d3;
+}
+
+#copy-area .container a {
+    font-weight: bold;
+    color: #d3d3d3;
+}
+
+#copy-area .container a:hover {
+    text-decoration: none;
+    color: #960019;
+}
+
+
+/*MEDIA QUERY DO SLIDE*/
+@media(min-width: 768px) {
+    #slider .carousel-caption {
+        bottom: 1em;
+    }
+
+    #slider .carousel-caption h5 {
+        font-size: 2.3em;
+        text-shadow: #000 1px 2px;
+    }
+
+    #slider .btn {
+        padding: 0.6 1.6em;
+        font-size: 1.2em;
+    }
+
+    .carousel-indicators {
+        bottom: 0em;
+    }
+}
+
+
+@media (min-width: 768px) {
+    .title {
+        font-size: 2.4em;
+    }
+
+    .title:before {
+        bottom: 1.5em;
+
+    }
+
+    #featured-images .banner-content {
+        opacity: 0;
+    }
+}
+
+
+@media (min-width: 768px) {
+    #info-content {
+        padding: 3.5em;
+    }
+}
+
+@media (min-width: 420px) {
+    .service i {
+        font-size: 40px;
+        color: #960019;
+    }
+
+    .contact-box p{
+       margin-top: 15px;
+    }
+}
